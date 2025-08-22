@@ -15,36 +15,42 @@
         <input
             type="number"
             id="service"
+            min="1"
             required
         ><br>
         <label>ค่าห้อง</label>
         <input
             type="number"
             id="room"
+            min="1"
             required
         ><br>
         <label>ค่าน้ำจดครั้งก่อน</label>
         <input
             type="number"
             id="waterbefore"
+            min="1"
             required
         >
         <label>ค่าน้ำจดครั้งหลัง</label>
         <input
             type="number"
             id="waterafter"
+            min="1"
             required
         ><br>
         <label>ค่าไฟจดครั้งก่อน</label>
         <input
             type="number"
             id="electricbefore"
+            min="1"
             required
         >
         <label>ค่าไฟจดครั้งหลัง</label>
         <input
             type="number"
             id="electricafter"
+            min="1"
             required
         ><br>
         <input
@@ -52,7 +58,10 @@
             value="คำนวณ"
             id="submit"
             onclick="calculate()"
-        ><br>
+        >
+        <a href="./index.html">
+            <button>รีเซ็ท</button>
+        </a>
 
 
         <table id="table">
